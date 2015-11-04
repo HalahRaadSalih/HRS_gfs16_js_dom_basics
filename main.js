@@ -59,3 +59,8 @@ console.log(allListItems);
 
 
 console.log('*********** Manipulation ****************');
+document.getElementById('main').style.backgroundColor = "goldenrod";
+
+for (var i = 0; i < allListItems.length; i++) {
+  console.log(allListItems[i].style.backgroundColor = 'red');
+}

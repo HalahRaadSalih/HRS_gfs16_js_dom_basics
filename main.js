@@ -46,4 +46,16 @@ console.log(oddAndEvenElements);
 
 
 console.log('************** Traversing the DOM ***************');
+console .log('************* Modifying DOM Nodes ***************');
 
+for (var i = 0; i < allListItems.length; i++) {
+  console.log(allListItems[i].innerText);
+}
+
+for (var i = 0; i < allListItems.length; i++) {
+  console.log(allListItems[i].innerText = i);
+}
+console.log(allListItems);
+
+
+console.log('*********** Manipulation ****************');

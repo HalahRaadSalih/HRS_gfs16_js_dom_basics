@@ -64,3 +64,22 @@ document.getElementById('main').style.backgroundColor = "goldenrod";
 for (var i = 0; i < allListItems.length; i++) {
   console.log(allListItems[i].style.backgroundColor = 'red');
 }
+
+
+console.log('******* Creating new elements ********');
+var li = document.createElement('li');
+  console.log(li);
+
+ var newElement = li.innerText = "another list item";
+ console.log(newElement);
+ console.log(li);
+
+ getSingleElement.appendChild(li);
+  console.log(allListItems);
+
+
+  var anotherListElement = document.createElement('li');
+anotherListElement.innerText = "prepend";
+console.log(anotherListElement);
+getSingleElement.insertBefore(anotherListElement, getSingleElement.firstChild);
+console.log(allListItems);
